@@ -1,7 +1,7 @@
 /* ----  Character Template
 
 
-"CHARACTER NAME GOES HERE" : {
+{
   name: "",
   system: "",
   campaign_world: "",
@@ -26,11 +26,11 @@
 
 
 
-const characters = {
-  "Alec" : {
+const characters = [ 
+  {
     name: "Alec Greystone",
-    system: "D&D5e",
-    campaign_world: "Greyhawk",
+    system: "dnd5e",
+    campaign_world: "greyhawk",
     race: "human",
     gender: "male",
     age: "27",
@@ -38,17 +38,17 @@ const characters = {
     summary: "Treasure hunter and would-be ladies' man.",
     factoid: "Craves fame and fortune above all else.",
     quote: "There's no problem a little magic can't solve.",
-    favSkill: "Persuasion",
-    favSpell: "Prestidigitation",
-    class: ["Wizard", "Rogue"],
-    subClass: ["Transmutation", ""],
+    favSkill: "persuasion",
+    favSpell: "prestidigitation",
+    class: ["wizard", "rogue"],
+    subClass: ["transmutation", ""],
     level: [9, 2],
   },
   
-  "Vivienne" : {
+  {
     name: "Vivienne d'Lyrandar",
-    system: "D&D5e",
-    campaign_world: "Eberron",
+    system: "dnd5e",
+    campaign_world: "eberron",
     race: "half-elf",
     gender: "female",
     age: "24",
@@ -57,16 +57,16 @@ const characters = {
     factoid: "Believes that she will lead her House one day.",
     quote: "This is getting tiresome.",
     favSkill: "",
-    favSpell: "Call Lightning",
-    class: ["Cleric", "Sorcerer"],
-    subClass: ["Tempest", "Storm"],
+    favSpell: "call lightning",
+    class: ["cleric", "sorcerer"],
+    subClass: ["tempest", "storm"],
     level: [7, 1],
   },
 
-  "Octavia" : {
+  {
     name: "Octavia Gallo",
-    system: "Pathfinder1E",
-    campaign_world: "Golarion",
+    system: "pathfinder1e",
+    campaign_world: "golarion",
     race: "human",
     gender: "female",
     age: "17",
@@ -74,13 +74,15 @@ const characters = {
     summary: "A hot-headed young follower of Iomedae.",
     factoid: "Prone to jumping out of windows in pursuit of her foes.",
     quote: "I promise we'll make this right.",
-    favSkill: "Diplomacy",
+    favSkill: "diplomacy",
     favSpell: "",
-    class: ["Paladin", "Swashbuckler"],
-    subClass: ["Virtuous Bravo", "Bravo"],
+    class: ["paladin", "swashbuckler"],
+    subClass: ["virtuous bravo", "bravo"],
     level: [5, 1],
   }
   
-};
+
+
+];
 
 exports.characters = characters;
