@@ -51,7 +51,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-LMTYA-My-Character is an API that allows you to search a database of characters.  But what good is an empty database?  That's where you come in, fellow RPG lover!  Do you have a character (or characters) that you'd like to tell someone about?  You grow the database, fulfill your need to talk about your character, get credited as a contributor, and increase your daily commit count on GitHub!  What's not to like?
+LMTYA-My-Character is an API that allows you to search a database of RPG characters.  Whose characters?  **Your** characters!  
+
+That's right, fellow RPG lover!  Do you have a character (or characters) that you are dying to tell someone about?  Now you can!  I would absolutely *love* to hear about your character!  
+
+In return, you get to help grow the database, fulfill your need to talk about your favorite character, get credited as a contributor, and increase your daily commit count on GitHub!  What's not to like?
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -64,7 +68,7 @@ To contribute to the project, all you have to do is follow these **6 simple step
 5. Push to the Branch (`git push origin add_new_character`)
 6. Open a Pull Request
 
-If you're a first-time contributor to GitHub, I strongly recommend checking out [Contribute to this project](https://github.com/Syknapse/Contribute-To-This-Project) by [Syknapse](https://github.com/Syknapse), which includes an exhaustive walkthrough.  
+If you're a first-time contributor to GitHub, I strongly recommend checking out [Contribute to this project](https://github.com/Syknapse/Contribute-To-This-Project) by [Syknapse](https://github.com/Syknapse), which includes an exhaustive walkthrough of the process.  
 
 
 ### Guidelines
@@ -144,8 +148,9 @@ Here's an example entry:
 ## Roadmap
 
 - [ ] Flesh out API documentation
+- [ ] Add additional search types
 - [ ] Enable multi-parameter searches
-- [ ] Transfer the character list from a .js file to MongoDB
+- [ ] Transfer the character file to MongoDB???
 
 See the [open issues](https://github.com/nbarnabee/lmtya-my-character/issues) for a full list of proposed features (and known issues).
 
