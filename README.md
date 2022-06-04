@@ -36,7 +36,7 @@
 <h1 align="center">Let Me Tell You About My Character</h1>
 
   <p align="center">
-    An API that allows you to sate the overwhelming need to tell someone about your RPG character, and to explore the diverse cast of characters played by your peers.
+    An API that allows you to sate the urge that you sometimes get to tell someone about your RPG character, and to explore the diverse cast of characters played by your peers.
     <br />
     <br />
     <a href="https://lmtya-my-character.herokuapp.com/">Access the API</a>
