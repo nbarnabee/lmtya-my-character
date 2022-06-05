@@ -1,10 +1,12 @@
 const { response } = require("express");
 const express = require("express");
 const app = express();
+const cors = require("cors");
 const PORT = 5000;
 const charList = require("./charList");
 const characters = charList.characters;
 
+app.use(cors());
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
@@ -12,7 +14,6 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api", (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
   const responseArray = [];
   for (let i = 0; i < characters.length; i++) {
   for (let value in req.query) {
