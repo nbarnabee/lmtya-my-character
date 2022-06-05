@@ -12,6 +12,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api", (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
   const responseArray = [];
   for (let i = 0; i < characters.length; i++) {
   for (let value in req.query) {
