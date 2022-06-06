@@ -39,7 +39,7 @@
     An API that allows you to sate the urge that you sometimes get to tell someone about your RPG character, and to explore the diverse cast of characters played by your peers.
     <br />
     <br />
-    <a href="https://lmtya-my-character.herokuapp.com/">Access the API</a>
+    <a href="https://lmtya-my-character.herokuapp.com/" target="_blank">Access the API</a>
     ·
     <a href="https://github.com/nbarnabee/lmtya-my-character/issues">Report Bug</a>
     ·
