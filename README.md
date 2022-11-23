@@ -36,11 +36,9 @@
 <h1 align="center">Let Me Tell You About My Character</h1>
 
   <p align="center">
-    An API that allows you to sate the urge that you sometimes get to tell someone about your RPG character, and to explore the diverse cast of characters played by your peers.
+    An API that allows you to sate the urge that you sometimes get to tell someone about your RPG character, and to explore the diverse cast of characters played by your peers.  With the loss of the Heroku free plan, this project is currently on hold.
     <br />
     <br />
-    <a href="https://lmtya-my-character.herokuapp.com/" target="_blank">Access the API</a>
-    ·
     <a href="https://github.com/nbarnabee/lmtya-my-character/issues">Report Bug</a>
     ·
     <a href="https://github.com/nbarnabee/lmtya-my-character/issues">Request Feature</a>
